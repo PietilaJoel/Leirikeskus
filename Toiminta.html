@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toiminta</title>
+    <link rel="stylesheet" href="Toiminta.css">
+</head>
+<body>
+    <div class="topnav1">
+        <a class="active" href="Etusivu.html">Etusivu</a>
+        <a class="active" href="Toiminta.html">Toiminta</a>
+        <a class="active" href="Majoitus.html">Majoitus</a>
+        <a class="active" href="Ruokailu.html">Ruokailu</a>
+        <a class="active" href="Tilat.html">Tilat</a>
+        <a class="active" href="Yhteystiedot.html">Yhteystiedot</a>
+      </div>
+      <div class="mobile-container">
+        <div class="topnav">
+          <a href="Etusivu.html" class="active">Etusivu</a>
+          <div id="myLinks">
+            <a href="Toiminta.html">Toiminta</a>
+            <a href="Majoitus.html">Majoitus</a>
+            <a href="Ruokailu.html">Ruokailu</a>
+            <a href="Tilat.html">Tilat</a>
+            <a href="Yhteystiedot.html">Yhteystiedot</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        <div style="padding-left:16px">
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myLinks");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } else {
+                    x.style.display = "block";
+                  }
+                }
+                </script>
+</body>
+</html>

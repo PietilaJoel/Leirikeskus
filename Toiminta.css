@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.topnav1 {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #7ddb60;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  
+  
+  .topnav1 a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px;
+  }
+  
+  .topnav1 a:hover {
+    background-color: #125811;
+    color: rgb(255, 255, 255);
+  }
+  
+  .topnav1 a.active {
+    max-height: 30px;
+    max-width: 120px;
+    align-self: center;
+    font-weight: bold;
+    margin-left: 25px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 7px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 5px 8px;
+    margin-right: 17px;
+    flex-grow: 1;
+  }
+  
+  @media screen and (max-width: 1000px){
+    .mobile-container {
+      display: contents;
+      max-width: 480px;
+      margin: auto;
+      background-color: #555;
+      height: 500px;
+      color: white;
+      border-radius: 10px;
+    }
+    
+.topnav1 {
+    overflow: hidden;
+}
+
+    .topnav {
+      overflow: hidden;
+      background-color: #0f0f0f;
+      position: relative;
+    }
+    
+    .topnav #myLinks {
+      display: none;
+    }
+    
+    .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+    
+    .topnav a.icon {
+      background: black;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .active {
+      background-color: #7ddb60;
+      color: white;
+    }
+  }
