@@ -1,13 +1,16 @@
 * {box-sizing: border-box;}
 
 h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  background-color: black;
-  backdrop;
+  background-color: #7ddb60;
+  border-radius: 10px;
+  height: 300px;
   max-width: 80%;
+  color: rgb(255, 250, 250);
 }
 
 .kuva1 {
