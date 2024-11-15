@@ -1,5 +1,22 @@
 * {box-sizing: border-box;}
 
+h2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: black;
+  backdrop;
+  max-width: 80%;
+}
+
+.kuva1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +30,8 @@ body {
   display: flex;
   justify-content: flex-start;
 }
+
+
 
 .topnav a {
   float: left;
