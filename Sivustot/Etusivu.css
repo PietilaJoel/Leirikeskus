@@ -1,4 +1,4 @@
-* {box-sizing: border-box;}
+
 
 h2 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,7 +8,7 @@ h2 {
   width: 50%;
   background-color: #7ddb60;
   border-radius: 10px;
-  height: 300px;
+  height: 390px;
   max-width: 80%;
   color: rgb(255, 250, 250);
 }
@@ -67,7 +67,35 @@ body {
   flex-grow: 1;
 }
 
+.topnav1 {
+  display: none;
+}
+
 @media screen and (max-width: 1000px){
+
+
+
+  .talokuva {
+    width: 90%;
+  }
+
+  .topnav {
+    display: none;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #7ddb60;
+    border-radius: 10px;
+    height: 770px;
+    width: 100%;
+    color: rgb(255, 250, 250);
+  }
+
   .mobile-container {
     max-width: 480px;
     margin: auto;
