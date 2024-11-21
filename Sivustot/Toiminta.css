@@ -8,50 +8,92 @@ body {
 }
 
 .topnav1 {
-    max-width: 100%;
-    overflow: hidden;
-    background-color: #7ddb60;
-    height: 60px;
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  
-  
-  .topnav1 a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    margin-right: 10px;
-  }
-  
-  .topnav1 a:hover {
-    background-color: #125811;
-    color: rgb(255, 255, 255);
-  }
-  
-  .topnav1 a.active {
-    max-height: 30px;
-    max-width: 120px;
-    align-self: center;
-    font-weight: bold;
-    margin-left: 25px;
-    border-width: 0.5px;
-    border-style: solid;
-    border-radius: 7px;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 5px 8px;
-    margin-right: 17px;
-    flex-grow: 1;
-  }
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #4f893e;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+
+.topnav1 a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+.topnav1 a:hover {
+  background-color: #125811;
+  color: rgb(255, 255, 255);
+}
+
+.topnav1 a.active {
+  max-height: 30px;
+  max-width: 120px;
+  align-self: center;
+  font-weight: bold;
+  margin-left: 25px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 7px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 5px 8px;
+  margin-right: 17px;
+  flex-grow: 1;
+}
+
+.toiminta {
+  border-left: 0;
+  border-right: 0;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-top: 0;
+  margin: 30px;
+  height: 200px;
+  width: 500px;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: lightgray;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
   
   @media screen and (max-width: 1000px){
 
+h2 {
+  margin-left: auto;
+  margin-right: auto;
 
+}
+
+    .topnav1 {
+      display: none;
+  }
+  
+  .topnav {
+    display: block;
+  }
 
     .mobile-container {
       display: contents;
@@ -59,17 +101,15 @@ body {
       margin: auto;
       background-color: #555;
       height: 500px;
-      color: white;
+      color: black;
       border-radius: 10px;
     }
     
-.topnav1 {
-    display: none;
-}
+
 
     .topnav {
       overflow: hidden;
-      background-color: #0f0f0f;
+      background-color: darkgreen;
       position: relative;
     }
     
@@ -86,7 +126,7 @@ body {
     }
     
     .topnav a.icon {
-      background: rgb(255, 255, 255);
+      background: lightgray;
       display: block;
       position: absolute;
       right: 0;
@@ -109,7 +149,7 @@ body {
     }
     
     .active {
-      background-color: #7ddb60;
+      background-color: #4f893e;
       color: white;
     }
     

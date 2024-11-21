@@ -1,34 +1,51 @@
-
-
-h2 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  background-color: #7ddb60;
-  border-radius: 10px;
-  height: 390px;
-  max-width: 80%;
-  color: rgb(255, 250, 250);
-}
-
-.kuva1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.kuvateksti {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: larger;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.talokuva {
+  height: auto;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  filter: brightness(0.7);
+  border-radius: 5%;
+}
+
+h2 {
+  line-height: 1.5;
+  font-weight: 100;
+  font-size: medium;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0;
+}
+
+.hasu {
+  margin-top: 8%;
+}
+
 .topnav {
   max-width: 100%;
   overflow: hidden;
-  background-color: #7ddb60;
+  background-color: #4f893e;
   height: 60px;
   display: flex;
   justify-content: flex-start;
@@ -72,31 +89,42 @@ body {
 }
 
 @media screen and (max-width: 1000px){
-
-
-
-  .talokuva {
-    width: 90%;
+  body {
+margin: 0;
   }
+
+  h2 {
+    color: black;
+    line-height: 1.5;
+    font-weight: 100;
+    font-size: medium;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+  }
+  
+  .hasu {
+    margin-top: 8%;
+  }
+
+.talokuva {
+  margin-top: 4%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
 
   .topnav {
     display: none;
   }
 
-  h2 {
-    display: flex;
-    justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 0;
-    margin-right: 0;
-    background-color: #7ddb60;
-    border-radius: 10px;
-    height: 770px;
-    width: 100%;
-    color: rgb(255, 250, 250);
+  .topnav1 {
+    display: block;
   }
 
   .mobile-container {
+    display: contents;
     max-width: 480px;
     margin: auto;
     background-color: #555;
@@ -104,18 +132,18 @@ body {
     color: white;
     border-radius: 10px;
   }
-  
-  .topnav {
+
+  .topnav1 {
     overflow: hidden;
-    background-color: #333;
+    background-color: darkgreen;
     position: relative;
   }
   
-  .topnav #myLinks {
+  .topnav1 #myLinks {
     display: none;
   }
   
-  .topnav a {
+  .topnav1 a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
@@ -123,21 +151,32 @@ body {
     display: block;
   }
   
-  .topnav a.icon {
-    background: black;
+  .topnav1 a.icon {
+    background: lightgray;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
+    border-radius: 10%;
+    width: 20px;
+    height: 20px;
   }
   
-  .topnav a:hover {
+  .topnav1 a.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+  }
+
+  .topnav1 a:hover {
     background-color: #ddd;
     color: black;
   }
   
   .active {
-    background-color: #04AA6D;
+    background-color: #4f893e;
     color: white;
   }
+  
 }
