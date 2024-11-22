@@ -127,6 +127,14 @@ p {
   margin-right: 10%;
 }
 
+.kuvatus {
+  border-radius: 3%;
+  position: absolute;
+  margin-left: 60%;
+  width: 500px;
+  height: auto;
+}
+
   @media screen and (max-width: 1000px){
 
     p {
